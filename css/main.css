@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+* {
+  box-sizing: border-box;
+}
+/*html {
+  max-width: 1440px;
+  margin: auto;
+}*/
+html,
+body {
+  height: 100%;
+  display: flex;
+  width: 100%;
+  padding: 0;
+  font-family: "Red Hat Display";
+  color: hsl(224, 23%, 55%);
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+}
+html {
+  background-image: url("/images/pattern-background-desktop.svg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position-x: center;
+  background-position-y: 0%;
+  background-color: hsl(225, 100%, 94%);
+}
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+main .sumario {
+  width: 350px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+.encabezado {
+  border-radius: 20px 20px 0 0;
+  width: 100%;
+}
+.contenido {
+  display: flex;
+  flex-direction: column;
+  padding: 0 2em 2em 2em;
+  text-align: center;
+}
+h1 {
+  font-size: 1.5em;
+}
+.order {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.icono {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+h2,
+h3 {
+  font-size: 14px;
+  line-height: 1.5;
+  margin: 0%;
+  color: black;
+  font-weight: bold;
+}
+h3 {
+  color: hsl(224, 23%, 55%);
+  font-weight: normal;
+}
+.cambiar {
+  margin-left: 80px;
+  font-size: 12px;
+  font-weight: bold;
+  color: hsl(245, 75%, 52%);
+}
+
+.cambiar:hover {
+  text-decoration: none;
+  color: hsl(224, 23%, 55%);
+}
+.pagar {
+  padding-top: 1.5em;
+  display: flex;
+  flex-direction: column;
+}
+.proceder {
+  background-color: hsl(245, 75%, 52%);
+  border: none;
+  font-size: 12px;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  border-radius: 5px;
+  font-weight: bold;
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px,
+    rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(4, 69, 155, 0.37) 0px 8px 16px,
+    rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+  cursor: pointer;
+}
+
+.proceder:hover {
+  background-color: hsl(245, 73%, 82%);
+}
+.cancelar {
+  color: hsl(224, 23%, 55%);
+  text-decoration: none;
+  padding-top: 20px;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.cancelar:hover {
+  color: black;
+}
+.attribution {
+  margin-top: 1em;
+}
+.attribution a {
+  text-decoration: none;
+  color: hsl(245, 73%, 82%);
+}
