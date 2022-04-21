@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/ordersumary-S1kbYmJSc)
-- Live Site URL: [Add live site URL here](https://order-sumary.vercel.app/)
+- Solution URL: [frontendmentor Solution](https://www.frontendmentor.io/solutions/ordersumary-S1kbYmJSc)
+- Live Site URL: [Live site URL here](https://order-sumary.vercel.app/)
 
 ## My process
 
@@ -44,6 +44,6 @@ Users should be able to:
 
 ## Author
 
-- Website - [Add your name here](https://www.facebook.com/Phoenixrx)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/phoenixrx)
-- Twitter - [@yourusername](https://www.twitter.com/luna_phx)
+- Website - [Jose Luna](https://www.facebook.com/Phoenixrx)
+- Frontend Mentor - [@phoenixrx](https://www.frontendmentor.io/profile/phoenixrx)
+- Twitter - [@Luna_phx](https://www.twitter.com/luna_phx)
